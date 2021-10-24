@@ -226,7 +226,13 @@ body {
    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 }
 .sweet-basket {
-   background-image: url("/img/card_1.png");
+   background-image: url("../img/card_1.png");
+   background-repeat:no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.minimum-effort {
+   background-image: url("../img/card_2.png");
    background-repeat:no-repeat;
    background-size: cover;
    background-position: center;
